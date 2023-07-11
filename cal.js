@@ -18,6 +18,9 @@ app.post("/",function(req,res){
     res.send("the result of calculater" + result);
 
 });
+
+
+
 app.listen(3000, function(){
     console.log("server is running");
 });
